@@ -14,6 +14,7 @@ const navbar = () => {
             <Nav.Link href="/">STRONA GŁÓWNA</Nav.Link>
             <Nav.Link href="/bestsellers">BESTSELLERY</Nav.Link>
             <Nav.Link href="/catalogue">KATALOG PRODUKTÓW</Nav.Link>
+            <Nav.Link href="/about">O NAS</Nav.Link>
             <Nav.Link href="/contact">KONTAKT</Nav.Link>
           </Nav>
         </Navbar.Collapse>

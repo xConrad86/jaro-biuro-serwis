@@ -12,6 +12,7 @@ import Footer from "./components/MainPage/Footer/Footer";
 import { Route, Switch } from "react-router-dom";
 import Contact from "./components/ContactPage/Contact";
 import Catalogue from "./components/ProductsPage/Catalogue/Catalogue";
+import About from "./components/AboutPage/About";
 
 const App = (props) => (
   <Switch>
@@ -37,6 +38,15 @@ const App = (props) => (
         <Hoc>
           <Navbar />
           <Catalogue />
+        </Hoc>
+      )}
+    />
+    <Route
+      path="/about"
+      render={() => (
+        <Hoc>
+          <Navbar />
+          <About />
         </Hoc>
       )}
     />
