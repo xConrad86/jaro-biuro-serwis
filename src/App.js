@@ -15,6 +15,7 @@ import Catalogue from "./components/ProductsPage/Catalogue/Catalogue";
 import GMap from "./components/AboutPage/Map";
 import About from "./components/AboutPage/About";
 import { align_products } from "./components/ProductsPage/Products/Products.module.css";
+import ProductDetails from "./components/ProductPage/ProductDetails";
 
 const App = () => (
   <Switch>
@@ -73,6 +74,7 @@ const App = () => (
         </Hoc>
       )}
     />
+    <Route path="/Produkt/:id" component={ProductDetails} />
   </Switch>
 );
 

@@ -12,14 +12,6 @@ class ProductDetails extends React.Component {
         <h2>
           {this.props.location.prodname}
           <tr>{this.props.location.price} zl</tr>
-          <form>
-            <label for="quantityProd">Dodaj ilosc</label>
-            <input
-              value={this.props.location.quantity}
-              name="quantityProd"
-              pattern="[0-9]{3}"
-            />
-          </form>
         </h2>
         <img
           height={100}
@@ -29,7 +21,7 @@ class ProductDetails extends React.Component {
         />
         <div>{this.props.location.desc}</div>
         <div>
-          <Link to="/Produkty">Wróć do listy produktów</Link>
+          <Link to="/catalogue">Wróć do listy produktów</Link>
         </div>
       </div>
     );
