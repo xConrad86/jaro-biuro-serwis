@@ -2,20 +2,27 @@ import React, { Component } from "react";
 import styles from "./About.module.css";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 
-class App extends Component {
+class About extends Component {
   render() {
+    const mapSize = {
+      width: "50vw",
+      height: "80vh",
+    };
     return (
-      <div id={styles.styleMap}>
-        Hello World
+      <div className={styles.marginTop}>
         <Map
           google={this.props.google}
-          zoom={10}
+          zoom={14}
           initialCenter={{
-            lat: 35.5496939,
-            lng: -120.7060049,
+            lat: 51.07898,
+            lng: 17.06973,
           }}
+          style={mapSize}
         >
-          <Marker />
+          <Marker>
+            title="The marker`s title will appear as a tooltip." name={"SOMA"}
+            position={{ lat: 51.06898, lng: 17.06973 }}
+          </Marker>
         </Map>
       </div>
     );
@@ -23,5 +30,4 @@ class App extends Component {
 }
 export default GoogleApiWrapper({
   apiKey: "AIzaSyBszSQB30rUP2KvrDoG0ADhrfcHagPRwwg",
-  version: 3.31,
-})(App);
+})(About);

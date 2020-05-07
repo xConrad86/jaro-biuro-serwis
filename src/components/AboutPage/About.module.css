@@ -1,5 +1,8 @@
-#styleMap {
+.marginTop {
   margin-top: 15vh;
-  width: 30vw;
-  height: 30vh;
+}
+
+.mapSize {
+  width: 50vw;
+  height: 50vh;
 }
