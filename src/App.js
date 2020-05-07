@@ -14,7 +14,7 @@ import Contact from "./components/ContactPage/Contact";
 import Catalogue from "./components/ProductsPage/Catalogue/Catalogue";
 import GMap from "./components/AboutPage/Map";
 import About from "./components/AboutPage/About";
-import { align_products } from "./App.module.css";
+import { align_about } from "./App.module.css";
 
 const App = (props) => (
   <Switch>
@@ -48,7 +48,7 @@ const App = (props) => (
       render={() => (
         <Hoc>
           <Navbar />
-          <div className={align_products}>
+          <div className={align_about}>
             <GMap />
             <About />
           </div>

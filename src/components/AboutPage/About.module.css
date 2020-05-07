@@ -1,0 +1,7 @@
+.alignText {
+  width: 40vw;
+  position: absolute;
+  right: 0px;
+  border-top: 3px solid gray;
+  padding: 10px;
+}

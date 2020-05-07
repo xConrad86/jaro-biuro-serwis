@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./About.module.css";
 
 const about = () => {
   return (
-    <div>
+    <div className={styles.alignText}>
       JAROBiuroserwis od roku 2001 zaopatruje biura, instytucje oraz osoby
       prywatne w artykuły biurowe. Działamy jako biuroserwis dostarczając
       artykuły biurowe własnym transportem na terenie Wrocławia i okolic, a
