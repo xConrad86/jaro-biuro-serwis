@@ -1,8 +1,21 @@
-.alignText {
-  width: 40vw;
-  position: absolute;
-  right: 5vw;
-  border-top: 3px solid gray;
-  padding: 10px;
-  margin-top: 10vh;
+@media (max-width: 620px) {
+  .alignText {
+    width: 40vw;
+    position: absolute;
+    right: 5vw;
+    border-top: 3px solid gray;
+    padding: 10px;
+    margin-top: 10vh;
+  }
+}
+
+@media (min-width: 621px) {
+  .alignText {
+    width: 40vw;
+    position: absolute;
+    right: 5vw;
+    border-top: 3px solid gray;
+    padding: 10px;
+    margin-top: 10vh;
+  }
 }

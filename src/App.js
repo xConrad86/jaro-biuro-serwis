@@ -14,9 +14,9 @@ import Contact from "./components/ContactPage/Contact";
 import Catalogue from "./components/ProductsPage/Catalogue/Catalogue";
 import GMap from "./components/AboutPage/Map";
 import About from "./components/AboutPage/About";
-import { align_products } from "./App.module.css";
+import { align_products } from "./components/ProductsPage/Products/Products.module.css";
 
-const App = (props) => (
+const App = () => (
   <Switch>
     <Route
       path="/"

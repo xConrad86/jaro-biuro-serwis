@@ -1,5 +1,5 @@
 .contact_form {
-  padding-top: 15vh;
+  padding-top: 5vh;
   /* background-image: linear-gradient(to bottom, lightgray, gray); */
   height: 100vh;
 }
@@ -18,5 +18,7 @@
 }
 
 .alignPhoneNumber {
+  padding-top: 15vh;
+  text-align: center;
   color: gray;
 }

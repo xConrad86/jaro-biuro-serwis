@@ -3,7 +3,7 @@ import { Card, Accordion } from "react-bootstrap";
 import styles from "./Catalogue.module.css";
 import main from "../../../Common.module.css";
 import Products from "../Products/Products";
-import { align_products } from "../../../App.module.css";
+import { align_products } from "../../../components/ProductsPage/Products/Products.module.css";
 
 class Catalogue extends Component {
   state = {

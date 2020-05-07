@@ -5,7 +5,7 @@ import styles from "./Contact.module.css";
 const contactForm = () => {
   return (
     <div>
-      <h1 className={styles.alignPhoneNumber}> TELEFON: 765 987 598</h1>
+      <h3 className={styles.alignPhoneNumber}> TELEFON: 765 987 598</h3>
       <div className={styles.contact_form}>
         <Form>
           <div className={styles.contact_form__items}>
@@ -40,7 +40,6 @@ const contactForm = () => {
                 </div>
               </Form.Group>
             </Form.Row>
-
             <Button variant="secondary" type="submit">
               Wyślij wiadomość
             </Button>
