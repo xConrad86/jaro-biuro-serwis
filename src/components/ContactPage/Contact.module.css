@@ -16,3 +16,7 @@
 .messageAreaWidth {
   width: 70vw;
 }
+
+.alignPhoneNumber {
+  color: gray;
+}
