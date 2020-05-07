@@ -38,7 +38,11 @@ class Products extends Component {
       listOfProducts = (
         <div className={styles.product_listing}>
           {this.state.data.map((product) => (
-            <Product key={product.id} product={product} />
+            <Product
+              key={product.id}
+              product={product}
+              pathname={`/Produkt/${product.id}`}
+            />
           ))}
         </div>
       );
