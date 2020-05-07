@@ -1,0 +1,21 @@
+@import "../../../../node_modules/react-modal-video/scss/modal-video.scss";
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
+
+#video_play {
+  position: relative;
+  min-height: 200px;
+  background: url("/other/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#how_we_work {
+  font-size: 2rem;
+}
+
+#marginTop {
+  margin-top: 8vh;
+}

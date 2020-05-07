@@ -1,0 +1,13 @@
+@media (max-width: 620px) {
+  .align_products {
+    display: block;
+    margin-top: 20vh;
+  }
+}
+
+@media (min-width: 621px) {
+  .align_products {
+    display: flex;
+    margin-top: 20vh;
+  }
+}

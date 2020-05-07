@@ -1,0 +1,8 @@
+.product_listing {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
