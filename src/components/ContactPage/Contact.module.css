@@ -1,6 +1,6 @@
 .contact_form {
   padding-top: 15vh;
-  background-image: linear-gradient(to bottom, lightgray, black);
+  /* background-image: linear-gradient(to bottom, lightgray, gray); */
   height: 100vh;
 }
 
@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
   text-align: center;
 }
 

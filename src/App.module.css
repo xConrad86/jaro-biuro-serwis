@@ -11,17 +11,3 @@
     margin-top: 20vh;
   }
 }
-
-@media (max-width: 620px) {
-  .align_about {
-    display: block;
-    margin-top: 15vh;
-  }
-}
-
-@media (min-width: 621px) {
-  .align_about {
-    display: flex;
-    margin-top: 15vh;
-  }
-}
