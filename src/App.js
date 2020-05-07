@@ -14,7 +14,6 @@ import Contact from "./components/ContactPage/Contact";
 import Catalogue from "./components/ProductsPage/Catalogue/Catalogue";
 import GMap from "./components/AboutPage/Map/Map";
 import About from "./components/AboutPage/About/About";
-import { align_products } from "./components/ProductsPage/Products/Products.module.css";
 import ProductDetails from "./components/ProductPage/ProductDetails";
 
 const App = () => (
