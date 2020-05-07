@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styles from "./ProductDetails.module.css";
 
 class ProductDetails extends React.Component {
   constructor(props) {
@@ -8,13 +9,12 @@ class ProductDetails extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className={styles.positionProduct}>
         <h2>
           {this.props.location.prodname}
           <tr>{this.props.location.price} zl</tr>
         </h2>
         <img
-          height={100}
           title={this.props.location.prodname}
           src={this.props.location.imgSrc}
           alt=""

@@ -12,8 +12,8 @@ import Footer from "./components/MainPage/Footer/Footer";
 import { Route, Switch } from "react-router-dom";
 import Contact from "./components/ContactPage/Contact";
 import Catalogue from "./components/ProductsPage/Catalogue/Catalogue";
-import GMap from "./components/AboutPage/Map";
-import About from "./components/AboutPage/About";
+import GMap from "./components/AboutPage/Map/Map";
+import About from "./components/AboutPage/About/About";
 import { align_products } from "./components/ProductsPage/Products/Products.module.css";
 import ProductDetails from "./components/ProductPage/ProductDetails";
 
@@ -50,8 +50,8 @@ const App = () => (
         <Hoc>
           <Navbar />
           <div className={align_products}>
-            <GMap />
             <About />
+            <GMap />
           </div>
         </Hoc>
       )}
