@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
+import styles from "./Map.module.css";
 
 class GMap extends Component {
   render() {
     const mapSize = {
-      width: "50vw",
+      width: "90vw",
       height: "80vh",
     };
     return (
-      <div>
+      <div className={styles.mapCenter}>
         <Map
           google={this.props.google}
           zoom={14}

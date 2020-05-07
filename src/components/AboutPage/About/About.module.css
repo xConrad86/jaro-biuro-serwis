@@ -1,21 +1,24 @@
 @media (max-width: 620px) {
   .alignText {
-    width: 40vw;
-    position: absolute;
-    right: 5vw;
+    width: 90vw;
     border-top: 3px solid gray;
     padding: 10px;
-    margin-top: 10vh;
+    margin-top: 17vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 1vh;
   }
 }
 
 @media (min-width: 621px) {
   .alignText {
-    width: 40vw;
-    position: absolute;
-    right: 5vw;
+    width: 90vw;
     border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
     padding: 10px;
-    margin-top: 10vh;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 1vh;
   }
 }

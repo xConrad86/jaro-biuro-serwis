@@ -49,7 +49,7 @@ const App = () => (
       render={() => (
         <Hoc>
           <Navbar />
-          <div className={align_products}>
+          <div>
             <About />
             <GMap />
           </div>
